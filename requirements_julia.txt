@@ -1,0 +1,12 @@
+CSV = 0.10.11
+Dates = nothing
+Interpolations = 0.14.7
+ShiftedArrays = 2.0.0
+Polynomials = 3.2.13
+DataFrames = 1.6.1
+DynamicalSystems = 3.2.3
+CairoMakie = 0.10.12
+RollingFunctions = 0.8.0
+StatsBase = 0.34.2
+Statistics = nothing
+CausalityTools = 2.10.1
