@@ -12,7 +12,7 @@ The repository is organized into two main folders: `main` and `supp`.
 
 The `main` folder contains the code for reproducing the analysis of the main text of the paper:
 - **`fig/`**: This folder contains the figures reproduced by the scripts starting with "fig_".
-- **`data/`**: This folder contains the data used in the analysis. Some data may not be included in this repository (screenshot) but can be found on Zenodo [provide link] or by contacting us via email [provide email].
+- **`data/`**: This folder contains the data used in the analysis. Some data may not be included in this repository (screenshot) but can be found on Zenodo [future link] or by contacting us via email [you can find it in the pre-print].
 - The Python scripts starting with "fig_" reproduce the figures used in the main text, while the remaining scripts perform the core analysis
 ## Supp Folder
 
