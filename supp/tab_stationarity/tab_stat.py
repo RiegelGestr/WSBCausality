@@ -4,7 +4,7 @@ from datetime import timedelta
 from statsmodels.tsa.stattools import grangercausalitytests,adfuller
 
 ########################################################################
-with open("data/GME_causality_with_twitter.csv","r") as inpuf:
+with open("../../main/data/GME_causality_with_twitter.csv","r") as inpuf:
     df = pd.read_csv(inpuf)
 df["date"] = pd.to_datetime(df["date"])
 start_date = df.iloc[0]["date"]
