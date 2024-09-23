@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from datetime import timedelta
+from datetime import timedelta,datetime
 from statsmodels.tsa.stattools import grangercausalitytests,adfuller
 
 ########################################################################
@@ -114,4 +114,11 @@ for date in dates:
 df = pd.DataFrame(results)
 print(df[[
     "Date","t (Twitter)","p-value (Twitter)","t (Trading Volume)","p-value (Trading Volume)","t (Reddit)","p-value (Reddit)"
+]].to_latex(index = False))
+df = df[df["Date"] > datetime(2021,1,1)]
+print(df[[
+    "Date",
+    "p-value (Reddit --> Trading Volume)","p-value (Trading Volume --> Reddit)",
+    "p-value (Reddit --> Twitter)","p-value (Twitter --> Reddit)",
+    "p-value (Twitter --> Trading Volume)","p-value (Trading Volume --> Twitter)",
 ]].to_latex(index = False))
