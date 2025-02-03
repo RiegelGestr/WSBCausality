@@ -5,7 +5,7 @@
 This repository contains the code and data necessary to reproduce the analysis presented in the paper titled "[The dynamics of the Reddit collective action leading to the GameStop short squeeze]". 
 The repository is organized into two main folders: `main` and `supp`.
 
-📝[Papert]([https://arxiv.org/abs/2401.14999](https://doi.org/10.1038/s44260-025-00029-z))
+📝[Paper]((https://doi.org/10.1038/s44260-025-00029-z))
 
 
 ## Main Folder
