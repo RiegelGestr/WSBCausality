@@ -2,17 +2,17 @@
 
 ![alt text](https://github.com/RiegelGestr/WSBCausality/blob/main/pic.png)
 
-This repository contains the code and data necessary to reproduce the analysis presented in the paper titled "[The causal role of the Reddit collective action on the GameStop short squeeze]". 
+This repository contains the code and data necessary to reproduce the analysis presented in the paper titled "[The dynamics of the Reddit collective action leading to the GameStop short squeeze]". 
 The repository is organized into two main folders: `main` and `supp`.
 
-📝[Pre-print on arXiv: 2401.14999](https://arxiv.org/abs/2401.14999)
+📝[Papert]([https://arxiv.org/abs/2401.14999](https://doi.org/10.1038/s44260-025-00029-z))
 
 
 ## Main Folder
 
 The `main` folder contains the code for reproducing the analysis of the main text of the paper:
 - **`fig/`**: This folder contains the figures reproduced by the scripts starting with "fig_".
-- **`data/`**: This folder contains the data used in the analysis. Some data may not be included in this repository (screenshot) but can be found on Zenodo [future link] or by contacting us via email [you can find it in the pre-print].
+- **`data/`**: This folder contains the data used in the analysis. Some data may not be included in this repository (screenshot) but can be found by contacting us via email [you can find it in the paper].
 - The Python scripts starting with "fig_" reproduce the figures used in the main text, while the remaining scripts perform the core analysis
 ## Supp Folder
 
